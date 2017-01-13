@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, user-scalable=0, minimal-ui">
+	<title>一个简单的图片处理小应用</title>
+	<link rel="stylesheet" type="text/css" href="css/imageData.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+<div class="canvas-contener">
+	<canvas id="canvas_before" ></canvas>
+	<button type="button" class="image btn btn-success">请选择一张图片</button>
+	<input type="file" accept="image/*"  class="choose_image"/>
+	<canvas id="canvas_after"></canvas>
+	<img class="canvas_finish"/>
+</div>
+<div class="foot">
+	<input type="button" class="btn btn-primary gray" value='灰度'>
+	<input type="button" class="btn btn-success blorwh" value='黑白'>
+	<input type="button" class="btn btn-info contrary" value='反色'>
+	<input type="button" class='btn btn-warning vague' value='模糊'>
+	<input type="button" class="btn btn-danger mosaic" value='马赛克'>
+	
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/imageData.js"></script>	
+</body>
+</html>

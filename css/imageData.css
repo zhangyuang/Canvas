@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+width: 100%;
+
+}
+.canvas-contener{
+	position: relative;
+	height:200px;
+	
+	width:100%;
+}
+#canvas_before{
+	float: left;
+	position: relative;
+	border: 1px solid #eee;
+}
+#canvas_after{
+	float: left;
+	opacity: 0;
+	border: 1px solid #eee;
+}
+.canvas_finish{
+	position: absolute;
+	right: 0;
+	border: 1px solid #eee;
+
+}
+.image{
+	position: absolute;	
+	left:2px;
+	bottom: -40px;	
+}
+.choose_image{
+	position: absolute;
+	width: 120px;
+    height: 30px;
+	left:2px;
+	bottom: -40px;
+	opacity: 0;
+}
+.foot {
+
+	width:340px;
+	position: absolute;
+	top:250px;
+	text-align: center;
+
+}
